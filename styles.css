@@ -725,11 +725,12 @@ padding-left: 9px;
   }
   
   .footer-links {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 0.5rem;
+    
   }
 
   .footer-links a:hover {
