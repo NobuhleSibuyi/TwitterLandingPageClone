@@ -43,13 +43,15 @@ body {
 
 .right-flex-container {
   display: flex;
-  width: 70%;
+  width: 95%;
   position: sticky;
   top: 0;
   border-left: 1px solid rgb(47, 51, 54);
   flex-flow: column nowrap;
-  align-items: center;
+  align-items: flex-start;
   overflow-y: auto; 
+  
+  
 }
 
 .logo {
@@ -479,6 +481,8 @@ padding-left: 9px;
   background: rgb(56, 56, 56);
   margin-top: 0.5rem;
   white-space: nowrap; 
+  width: 65%;
+  margin-left: 40px;
 }
 
 .search-box i {
@@ -499,27 +503,28 @@ padding-left: 9px;
   border: none;
   border-radius: 25px;
   padding: 20px 20px 20px 20px;
-  max-width: 340px;
+  margin-left: 40px;
   height: 200px;
   font-size: 0.9rem;
   background-color: rgb(55, 56, 56);
   display: flex;
   color: #fff;
   flex-flow: column nowrap;
-  width: 100%;
-  /* border-radius: 15px; */
-  font-weight: bold; /* Set the text to bold */
+  width: 65%;
+  font-weight: 400; 
   cursor: pointer;
 }
 
 .premium{
   padding-bottom: 8px;
+  font-size: 19px;
   background-color: rgb(55, 56, 56);
 }
 
 .texts {
   padding-top: 6px;
   background-color: rgb(55, 56, 56);
+  font-size: 15px;
 }
 
 .Subscribe:hover{
@@ -527,13 +532,17 @@ padding-left: 9px;
 }
 
 .sub-btn {
+  display: flex;
   background: #198ed6;
+  width: 45%;
+  border: none;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   border-radius: 50px;
-  top:15pt;
-  padding: 10px;
-  bottom: 0;
-  /* background-color: rgb(55, 56, 56); */
+  padding: 12px;
+  margin-top: 15px;
+  font-weight: 500;
+  justify-content: center;
 }
 
 /* Trending Nav Items */
@@ -566,7 +575,7 @@ padding-left: 9px;
 .trends {
   display: flex;
   flex-flow: column nowrap;
-  width: 80%;
+  width: 65%;
   border-radius: 15px;
   margin-top: 1rem;
   border: none;
@@ -574,6 +583,7 @@ padding-left: 9px;
   padding: 0.1rem 1rem;
   background-color: rgb(56, 56, 56);
   white-space: nowrap; 
+  margin-left: 40px;
 }
 
 .trends .header {
@@ -638,57 +648,62 @@ padding-left: 9px;
 
   /*follower*/
 .follower-user-box {
-  display: flex;
-  flex-flow: column nowrap;
-  width: 80%;
-  border-radius: 15px;
-  margin-top: 1rem;
-  border: none;
-  padding-bottom: 45px;
-  padding: 0.1rem 1rem;
-  background-color: rgb(56, 56, 56);
-  white-space: nowrap; 
-}
-  .follow-user {
-  display: flex;
+  display: flexbox;
   flex-flow: column nowrap;
   padding: 0.4rem 1rem; 
-  /* border-bottom: 1px solid rgb(230, 236, 240); */
   display: flex; 
   flex-flow: column nowrap;
-  width: 80%;
+  width: 65%;
   border-radius: 15px;
   margin-top: 1rem;
   border: none;
   padding-bottom: 45px;
+  margin-left: 40px;
   padding: 0.1rem 1rem;
   background-color: rgb(56, 56, 56);
   white-space: nowrap; 
   }
-  .follow-user:hover {
-    background: rgb(245, 248, 250);
-  }
-  .follow-header h2 {
-    font-size: 15px;
+
+  .follower-header {
+    display: flex;
+    background-color: rgb(55, 56, 56);
+    padding: 22px 10px;
     color: #fff;
+    font-size: 22px;
   }
+  
   .user-profile {
     display: flex;
     flex-flow: row nowrap;
-    background-color: rgb(56, 56, 56);
-  }
-  .user-profile {
     width: 100%;
     padding-bottom: 0.3rem;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(56, 56, 56S);
   }
-  .user-pics img {
+  /* .user-pics img {
     background-color: rgb(56, 56, 56);
     border-radius: 25px;
+  } */
+
+  .user-pics img {
+    display: inline-block;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: center; 
+    background-color: rgb(56, 56, 56);
   }
 
-  .user-info {
+  .user-info .full-name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 180;
     background-color: rgb(56, 56, 56);
+  }
+  .user-info .user-name {
+    background-color: rgb(56, 56, 56);
+    color: #756f6f;
+    font-size: 14px;
   }
 
   .follow-btn {
@@ -697,9 +712,9 @@ padding-left: 9px;
     color: #fff;
     border: none;
     border-radius: 25px;
-    text-align: center;
     display: flex;
     padding: 20px;
+    margin-right: 25px;
   }
   
   .load-more {
@@ -722,6 +737,9 @@ padding-left: 9px;
     display: flex;
     flex-direction: column;
     width: 80%;
+    margin-left: 40px;
+    background-color: black;
+    color: #756f6f;
   }
   
   .footer-links {
@@ -730,7 +748,8 @@ padding-left: 9px;
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 0.5rem;
-    
+    background-color: black;
+    color: #756f6f;
   }
 
   .footer-links a:hover {
@@ -740,6 +759,8 @@ padding-left: 9px;
   .footer-links i {
     padding: 0.4rem;
     border-radius: 50%;
+    background-color: black;
+    color: #756f6f;
 }
 .footer-links i:hover {
     background: rgb(245, 248, 250);
@@ -751,14 +772,7 @@ padding-left: 9px;
   align-self: flex-start;
 }
 
-.user-pics img {
-  display: inline-block;
-  margin-right: 5px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  align-self: center; 
-}
+
 
 
 
