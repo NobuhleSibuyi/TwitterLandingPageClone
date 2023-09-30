@@ -405,6 +405,7 @@ ul.container li a {
   line-height: 1.75rem;
   padding-top: 0.5rem;
   border-bottom: 1px solid rgb(84, 84, 84);
+  margin-top: 0;
 }
 
 .tweets:hover {
@@ -713,6 +714,8 @@ padding-left: 9px;
   padding: 0.1rem 1rem;
   background-color: rgb(56, 56, 56);
   white-space: nowrap; 
+  box-sizing: border-box;
+  overflow: visible;
   }
 
   .follower-header {
@@ -721,6 +724,7 @@ padding-left: 9px;
     padding: 20px 10px;
     color: #fff;
     font-size: 23px;
+    width: 100%;
   }
   
   .follower-header p {
@@ -729,8 +733,8 @@ padding-left: 9px;
 
   .user-profile {
     display: flex;
-    flex-flow: row nowrap;
-    width: 70%;
+    /* flex-flow: row nowrap; */
+    width: 100%;
     /* height: 100px; */
     padding: 10px;
     background-color: rgb(56, 56, 56);
@@ -739,6 +743,8 @@ padding-left: 9px;
 
   .user-picts {
     background-color: rgb(55, 56, 56);
+    width: 35%;
+    height: 50px;
   }
 
   .user-picts img {
@@ -754,6 +760,7 @@ padding-left: 9px;
   .user-info {
     display: block;
     background-color: rgb(55, 56, 56);
+    width: 100%;
   }
 
   .user-info .full-name {
@@ -761,6 +768,8 @@ padding-left: 9px;
     font-size: 17px;
     font-weight: 500;
     background-color: rgb(56, 56, 56);
+    width: 100%;
+    justify-items: flex-start;
   }
   .user-info .user-name {
     background-color: rgb(56, 56, 56);
@@ -779,10 +788,10 @@ padding-left: 9px;
     border: none;
     border-radius: 25px;
     display: flex;
-    margin: 0 23px 18px 15px; 
+    margin: 0 0 18px 15px; 
     /*margin-bottom: 15px;*/
     padding: 12px 18px; 
-    overflow: hidden;
+    overflow: visible;
   }
 
   .right-footer {
