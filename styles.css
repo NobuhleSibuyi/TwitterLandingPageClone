@@ -735,16 +735,13 @@ padding-left: 9px;
     padding: 10px;
     background-color: rgb(56, 56, 56);
   }
-  /* .user-pics img {
-    background-color: rgb(56, 56, 56);
-    border-radius: 25px;
-  } */
+  
 
-  .user-pics {
+  .user-picts {
     background-color: rgb(55, 56, 56);
   }
 
-  .user-pics img {
+  .user-picts img {
     display: inline-block;
     margin-right: 5px;
     width: 50px;
