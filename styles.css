@@ -26,7 +26,7 @@ body {
 .left-container {
   display: flex;
   flex-direction: column;
-  width: 62%;
+  width: 70%;
   position: sticky;
   top: 0;
   font-size: 1.3rem;
@@ -44,7 +44,7 @@ body {
 .right-flex-container {
   display: flex;
   width: 95%;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   border-left: 1px solid rgb(47, 51, 54);
   flex-flow: column nowrap;
@@ -147,7 +147,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 140px;
   align-self: center;
   padding: 0 0.6rem;
   /* background-color: rgb(55, 56, 56); */
@@ -238,7 +238,7 @@ ul.container li a {
   top: 0;
   background: rgba(255, 255, 255, 0.5);
   z-index: 1;
-  border-bottom: 1.3px solid rgb(105, 106, 106);
+  border-bottom: 1px solid rgb(50, 50, 50);
   backdrop-filter: blur(10px);
 }
 
@@ -253,6 +253,8 @@ ul.container li a {
   font-weight: 400;
   text-decoration: none;
   border-bottom: 3px solid rgb(0, 153, 255);
+  width: 70px;
+  margin-left: 120px;
 }
 
 .container .foryou:hover {
@@ -264,6 +266,7 @@ ul.container li a {
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
+  margin-left: 180px;
 }
 
 .container .following:hover {
@@ -288,7 +291,7 @@ ul.container li a {
 /*create tweet box*/
 .post-tweet {
   background: #fff;
-  border-bottom: 1px solid rgb(105, 106, 106);
+  border-bottom: 1px solid rgb(56, 57, 57);
 }
 
 .form-group-1 {
@@ -326,7 +329,7 @@ ul.container li a {
 .sub-post {
   display: flex;
   padding: 14px;
-  border-bottom: 1px solid rgb(40, 40, 41);
+  border-bottom: 1px solid rgb(56, 56, 56);
   justify-content: center;
   color: #1da1f2;
   font-size: 16px;
@@ -526,9 +529,10 @@ padding-left: 9px;
   margin-left: 40px;
 }
 
-.search-box i {
+.search-box img {
   color: rgb(101, 119, 134);
   font-size: 0.9rem;
+  background-color: rgb(56, 55, 55);
 }
 .search-box input {
   padding: 0.8rem 8rem 0.8rem 0.2rem;
@@ -676,6 +680,12 @@ padding-left: 9px;
     padding: 12px 0;
     background-color: rgb(55, 56, 56);
   }
+
+  .trend-icon p {
+    color: white;
+    background-color: rgb(55, 56, 56);
+    margin-top: 25px;
+  }
   
   .nav-list .trend-icon {
     font-size: 13px;
@@ -691,7 +701,7 @@ padding-left: 9px;
 .follower-user-box {
   display: flexbox;
   flex-flow: column nowrap;
-  padding: 0.4rem 1rem; 
+  /* padding: 0.4rem 1rem;  */
   display: flex; 
   flex-flow: column nowrap;
   width: 65%;
@@ -708,37 +718,51 @@ padding-left: 9px;
   .follower-header {
     display: flex;
     background-color: rgb(55, 56, 56);
-    padding: 22px 10px;
+    padding: 20px 10px;
     color: #fff;
-    font-size: 22px;
+    font-size: 23px;
   }
   
+  .follower-header p {
+    background-color: rgb(55, 56, 56);
+  }
+
   .user-profile {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    padding-bottom: 0.3rem;
-    background-color: rgb(56, 56, 56S);
+    /* height: 100px; */
+    padding: 10px;
+    background-color: rgb(56, 56, 56);
   }
   /* .user-pics img {
     background-color: rgb(56, 56, 56);
     border-radius: 25px;
   } */
 
+  .user-pics {
+    background-color: rgb(55, 56, 56);
+  }
+
   .user-pics img {
     display: inline-block;
     margin-right: 5px;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 4px;
     align-self: center; 
-    background-color: rgb(56, 56, 56);
+    background-color: black;
+  }
+
+  .user-info {
+    display: block;
+    background-color: rgb(55, 56, 56);
   }
 
   .user-info .full-name {
     color: #fff;
-    font-size: 18px;
-    font-weight: 180;
+    font-size: 17px;
+    font-weight: 500;
     background-color: rgb(56, 56, 56);
   }
   .user-info .user-name {
@@ -746,33 +770,22 @@ padding-left: 9px;
     color: #756f6f;
     font-size: 14px;
   }
+  /* .user-profile .follow-btn {
+    justify-content: flex-end;
+    -webkit-box-align: stretch;
+  } */
 
   .follow-btn {
-    background-color: rgb(56, 56, 56);
-    align-items: flex-end;
-    color: #fff;
+    justify-content:  flex-end;
+    background-color: #fff; 
+    color: black;
     border: none;
     border-radius: 25px;
     display: flex;
-    padding: 20px;
-    margin-right: 25px;
+    margin: 0 23px 18px 15px; 
+    /*margin-bottom: 15px;*/
+    padding: 12px 18px; 
   }
-  
-  .load-more {
-    margin: 1rem 0;
-    text-align: center;
-  }
-
-  .load-more a {
-    color: #fff;
-    background: #1da1f2;
-    padding: 0.3rem 1rem;
-    border-radius: 25px;
-    font-size: 1rem;
-  }
-  .load-more a:hover {
-    background: #198ed6;
-  } 
 
   .right-footer {
     display: flex;
@@ -786,32 +799,22 @@ padding-left: 9px;
   .footer-links {
     display: inline-block;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 0.5rem;
     background-color: black;
     color: #756f6f;
   }
 
+  .footer-links a {
+    background-color: black;
+    text-decoration: none;
+    padding-right: 15px;
+  }
+
   .footer-links a:hover {
     text-decoration: underline;
   }
-
-  .footer-links i {
-    padding: 0.4rem;
-    border-radius: 50%;
-    background-color: black;
-    color: #756f6f;
-}
-.footer-links i:hover {
-    background: rgb(245, 248, 250);
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.footer-copyright {
-  align-self: flex-start;
-}
 
 
 
