@@ -699,7 +699,7 @@ padding-left: 9px;
 
   /*follower*/
 .follower-user-box {
-  display: flexbox;
+  display: flex;
   flex-flow: column nowrap;
   /* padding: 0.4rem 1rem;  */
   display: flex; 
@@ -730,7 +730,7 @@ padding-left: 9px;
   .user-profile {
     display: flex;
     flex-flow: row nowrap;
-    width: 100%;
+    width: 70%;
     /* height: 100px; */
     padding: 10px;
     background-color: rgb(56, 56, 56);
@@ -782,6 +782,7 @@ padding-left: 9px;
     margin: 0 23px 18px 15px; 
     /*margin-bottom: 15px;*/
     padding: 12px 18px; 
+    overflow: hidden;
   }
 
   .right-footer {
