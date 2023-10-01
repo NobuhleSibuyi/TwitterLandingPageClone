@@ -37,9 +37,9 @@ body {
   border-right: 1px solid rgb(47, 51, 54);
 }
 
-.center-flex-container {
+/* .center-flex-container {
   display: flex;
-}
+} */
 
 .right-flex-container {
   display: flex;
@@ -147,7 +147,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 140px;
+  margin-top: 80px;
   align-self: center;
   padding: 0 0.6rem;
   /* background-color: rgb(55, 56, 56); */
