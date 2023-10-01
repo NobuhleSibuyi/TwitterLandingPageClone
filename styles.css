@@ -519,29 +519,30 @@ padding-left: 9px;
 
 /* Right Conainer */
 .search-box {
+  display: flex;
   border: none;
-  border-radius: 25px;
-  padding-bottom: 45px;
+  border-radius: 50px;
   padding: 0.1rem 1rem;
-  background: rgb(56, 56, 56);
+  background: rgb(22, 24, 28);
   margin-top: 0.5rem;
-  white-space: nowrap; 
-  width: 65%;
-  margin-left: 40px;
+  white-space: nowrap;  
+  width: 72%;
+  margin-left: 35px; 
 }
 
 .search-box img {
-  color: rgb(101, 119, 134);
+  display: flex;
+  color: rgb(47, 51, 54);
   font-size: 0.9rem;
-  background-color: rgb(56, 55, 55);
+  background-color: rgb(22, 24, 28);
 }
 .search-box input {
-  padding: 0.8rem 8rem 0.8rem 0.2rem;
+  padding: 0.8rem 0.1rem 0.7rem 0.2rem;
   border-radius: 25px;
   outline: none;
   border: none;
   font-size: 0.9rem;
-  background: rgb(55, 56, 56);
+  background: rgb(22, 24, 28);
 }
 
 .Subscribe {
@@ -552,11 +553,11 @@ padding-left: 9px;
   margin-left: 40px;
   height: 200px;
   font-size: 0.9rem;
-  background-color: rgb(55, 56, 56);
+  background-color: rgb(22, 24, 28);
   display: flex;
   color: #fff;
   flex-flow: column nowrap;
-  width: 65%;
+  width: 72%;
   font-weight: 400; 
   cursor: pointer;
 }
@@ -564,17 +565,13 @@ padding-left: 9px;
 .premium{
   padding-bottom: 8px;
   font-size: 19px;
-  background-color: rgb(55, 56, 56);
+  background-color: rgb(22, 24, 28);
 }
 
 .texts {
   padding-top: 6px;
-  background-color: rgb(55, 56, 56);
+  background-color: rgb(22, 24, 28);
   font-size: 15px;
-}
-
-.Subscribe:hover{
-  background: rgb(55, 56, 56);
 }
 
 .sub-btn {
@@ -621,13 +618,13 @@ padding-left: 9px;
 .trends {
   display: flex;
   flex-flow: column nowrap;
-  width: 65%;
+  width: 72%;
   border-radius: 15px;
   margin-top: 1rem;
   border: none;
   padding-bottom: 45px;
   padding: 0.1rem 1rem;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(22, 24, 28);
   white-space: nowrap; 
   margin-left: 40px;
 }
@@ -637,7 +634,7 @@ padding-left: 9px;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.2rem;
     color: #fff;
     padding: 0.5rem 1rem;
 
@@ -646,8 +643,8 @@ padding-left: 9px;
   .header h2 {
     font-size: 1.3rem;
     font-weight: 600;
-    padding-bottom: 22px;
-    background-color: rgb(55, 56, 56);
+    padding-bottom: 15px;
+    background-color: rgb(22, 24, 28);
   }
 
   .header i {
@@ -668,34 +665,34 @@ padding-left: 9px;
     font-size: 19px;
     color: #fff;
     font-weight: 500;
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
   }
 
   .sub-text {
     font-size: 13px;
     color: rgb(110, 110, 110);
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
   }
 
   .nav-list {
     padding: 12px 0;
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
   }
 
   .trend-icon p {
     color: white;
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
     margin-top: 25px;
   }
   
   .nav-list .trend-icon {
     font-size: 13px;
     color:  rgb(101, 119, 134);
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
   }
    .nav-list a {
     text-decoration: none;
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
    }
 
   /*follower*/
@@ -705,14 +702,14 @@ padding-left: 9px;
   /* padding: 0.4rem 1rem;  */
   display: flex; 
   flex-flow: column nowrap;
-  width: 65%;
+  width: 72%;
   border-radius: 15px;
   margin-top: 1rem;
   border: none;
   padding-bottom: 45px;
   margin-left: 40px;
   padding: 0.1rem 1rem;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(22, 24, 28);
   white-space: nowrap; 
   box-sizing: border-box;
   overflow: visible;
@@ -720,7 +717,7 @@ padding-left: 9px;
 
   .follower-header {
     display: flex;
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
     padding: 20px 10px;
     color: #fff;
     font-size: 23px;
@@ -728,7 +725,7 @@ padding-left: 9px;
   }
   
   .follower-header p {
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
   }
 
   .user-profile {
@@ -737,12 +734,12 @@ padding-left: 9px;
     width: 100%;
     /* height: 100px; */
     padding: 10px;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(22, 24, 28);
   }
   
 
   .user-picts {
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
     width: 35%;
     height: 50px;
   }
@@ -759,7 +756,7 @@ padding-left: 9px;
 
   .user-info {
     display: block;
-    background-color: rgb(55, 56, 56);
+    background-color: rgb(22, 24, 28);
     width: 100%;
   }
 
@@ -767,22 +764,18 @@ padding-left: 9px;
     color: #fff;
     font-size: 17px;
     font-weight: 500;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(22, 24, 28);
     width: 100%;
     justify-items: flex-start;
   }
   .user-info .user-name {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(22, 24, 28);
     color: #756f6f;
     font-size: 14px;
   }
-  /* .user-profile .follow-btn {
-    justify-content: flex-end;
-    -webkit-box-align: stretch;
-  } */
 
   .follow-btn {
-    justify-content:  flex-end;
+    align-content: flex-end;
     background-color: #fff; 
     color: black;
     border: none;
@@ -791,7 +784,7 @@ padding-left: 9px;
     margin: 0 0 18px 15px; 
     /*margin-bottom: 15px;*/
     padding: 12px 18px; 
-    overflow: visible;
+    right: 0;
   }
 
   .right-footer {
