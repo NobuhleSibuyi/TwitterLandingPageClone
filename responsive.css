@@ -1,0 +1,12 @@
+@media (max-width: 789px) and (min-width: 480px) {
+
+}
+/* body {
+    font-size: 14px;
+    width: 100%;
+} */
+.main-container {
+    width: 100%;
+    font-size: 1.3rem;
+    display: flex;
+}
